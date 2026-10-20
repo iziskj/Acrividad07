@@ -68,7 +68,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(
         //Variable que lee la base de datos
         val db = readableDatabase
         //Crear consulta
-        val query_sql = """
+        val query_sql = """         
             SELECT * FROM ${TABLE_USUARIOS}
             WHERE ${COL_CORREO} = ? AND ${COL_PASSWORD} = ?
         """.trimIndent()
