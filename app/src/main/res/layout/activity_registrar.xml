@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="30dp"
-                android:text="Registro de usuario"
+                android:text="Crear cuenta"
                 android:textColor="#FF6347"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -58,7 +58,7 @@
                 android:background="@drawable/bg_input"
                 android:drawablePadding="10dp"
                 android:drawableStart="@drawable/icononombre"
-                android:hint="Nombre"
+                android:hint="Usuario"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
@@ -71,7 +71,7 @@
                 android:background="@drawable/bg_input"
                 android:drawablePadding="10dp"
                 android:drawableStart="@drawable/iconocorreo"
-                android:hint="Correo"
+                android:hint="Correo electronico"
                 android:inputType="textEmailAddress"
                 android:paddingStart="15dp"
                 android:paddingEnd="15dp"
@@ -99,7 +99,7 @@
                 android:layout_height="55dp"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/bg_button"
-                android:text="Registrar"
+                android:text="Registrarse"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
             <!-- Opcion para iniciar sesion -->

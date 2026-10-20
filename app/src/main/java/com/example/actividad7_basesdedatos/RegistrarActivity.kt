@@ -44,7 +44,7 @@ class RegistrarActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-    //MÉTODOS POR AQUÍ
+    //MÉTODOS
     private fun registrarUsuario(){
         //Variables para gusrdar los textos
         val nombre = etNombre.text.toString().trim()
